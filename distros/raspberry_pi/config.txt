@@ -11,6 +11,8 @@ grafana=true
 bsm=true
 # Basic Eth2 Node Monitor
 bnm=true
+# Geth Sync Stges Monitor
+gssm=true
 
 # Execution endpoint address
 exec_url=http://localhost:8551
@@ -94,13 +96,13 @@ dtoverlay=dwc2,dr_mode=host
 # Overclocking Raspberry Pi CM4
 # Active cooling is required
 # over_voltage=6
-# arm_freq=1800
+arm_freq=1800
 
 [pi4]
 # Overclocking Raspberry Pi 4
 # Active cooling is required
 # over_voltage=6
-# arm_freq=1800
+arm_freq=1800
 
 [pi5]
 # Overclocking Raspberry Pi 5
